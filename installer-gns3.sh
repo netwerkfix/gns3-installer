@@ -1,14 +1,14 @@
 clear
 sleep 3
 echo "
-#############################
-####   BKM GNS3 installer ###
-#############################
+##################################
+#### Netwerkfix GNS3 installer ###
+##################################
 "
 sleep 2
 apt update ; apt upgrade -y
 sleep 2
-useradd -p $(openssl passwd -1 Appel.Sap123) gns3
+useradd -p $(openssl passwd -1 Test.1234) gns3
 sleep 2
 apt install software-properties-common -y
 sleep 1
@@ -1140,3 +1140,12 @@ echo "
 "
 sleep 2
 virsh net-list --all
+sleep 7
+clear
+echo "
+##################################################
+## GNS3 is succesfull installed                 ##
+##                                              ##
+## your ready to used it :)                     ##
+##################################################
+"
