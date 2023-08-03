@@ -26,7 +26,7 @@ systemctl enable --now gns3server.service && systemctl enable --now docker
 sleep 2
 echo "[Server]
 ; IP where the server listen for connection
-host = 192.168.122.1
+host = 0.0.0.0
 ; HTTP port for controlling the servers
 port = 3080
 ; Path where images of devices are stored
