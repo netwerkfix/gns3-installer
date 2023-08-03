@@ -1122,7 +1122,7 @@ systemctl enable --now gns3server.service
 sleep 1
 echo "
 #####################################
-## Gns3 Server RDP Crendentials ###
+## Gns3 Server                  ###
 ## IP: \4             ##
 ## User: gns3                   ###
 ## Pass: gns3                   ##
