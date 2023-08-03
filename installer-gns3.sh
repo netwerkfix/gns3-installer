@@ -1140,7 +1140,7 @@ echo "
 "
 sleep 2
 virsh net-list --all
-sleep 7
+sleep 10
 clear
 echo "
 ##################################################
