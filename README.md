@@ -5,7 +5,7 @@ $ sudo su
 <h4>or</h4>
 $ sudo root
 <h4>Download the installer</h4>
-$ wget https://netwerkfix.ams3.digitaloceanspaces.com/gns3-installer/Gns3-Installer.sh
+$ wget https://mirror.netwerkfix.com/gns3/Gns3-Installer.sh
 <br>
 <h4>Check first in the script that bridges change bond0 to your uplink interface</h4>
 $ nano Gns3-install.sh
