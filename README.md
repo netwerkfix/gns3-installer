@@ -7,11 +7,8 @@ $ sudo root
 <h4>Download the installer</h4>
 $ wget https://mirror.netwerkfix.com/gns3/Gns3-Installer.sh
 <br>
-$ nano Gns3-Installer.sh
-<h5>Save it</h5>
-<br>
 <h4>Give it run perms</h4>
-$ chmod +x Gns3-Installer.sh
+$ chmod 755 Gns3-Installer.sh
 <br>
 <h4>Execute it / Run the installer and just wait :)</h4>
 $ ./Gns3-Installer.sh
